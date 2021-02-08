@@ -1,0 +1,258 @@
+@charset "utf-8";
+
+body {
+  font-family: "Lato";
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+/* header */
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+.header-inner {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-icon {
+  font-size: 40px;
+  color: #333;
+}
+
+.header-btn {
+  background-color: #74cfae;
+  color: #fff;
+  font-size: 12px;
+  padding: 14px 12px;
+  transition: .3s;
+}
+
+.header-btn:hover {
+  color: #333;
+}
+
+/* main */
+.main {
+  margin-top: 70px;
+}
+
+/* theme */
+.theme {
+  background-color: #f2f2f2;
+  font-family: "Raleway";
+}
+
+.theme-inner {
+  padding: 250px 0;
+}
+
+.theme-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.theme-text:first-child {
+  margin-top: 0;
+}
+
+.theme-title {
+  font-size: 90px;
+  font-weight: 700;
+  color: #74cfae;
+}
+
+.theme-subtitle {
+  font-size: 30px;
+  color: #c0c0c0;
+}
+
+/* what */
+.what {
+  background-color: #74cfae;
+}
+
+.what-inner {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0;
+  padding-top: 50px;
+}
+
+.what-img,
+.what-desc {
+  color: #fff;
+  text-align: center;
+}
+
+.what-title {
+  font-family: "Raleway";
+  font-size: 24px;
+}
+
+.what-text {
+  font-size: 20px;
+  width: 650px;
+  margin-top: 35px;
+}
+
+/* our latest work */
+.work {
+  background-color: #f2f2f2;
+}
+
+.work-inner {
+  padding: 60px 0 70px;
+  color: #333;
+}
+
+.work-title {
+  font-family: "Raleway";
+  font-size: 24px;
+  text-align: center;
+}
+
+.work-list {
+  font-size: 0;
+  margin-top: 40px;
+}
+
+.work-list li {
+  margin-top: 80px;
+  margin-left: 100px;
+  display: inline-block;
+}
+
+.work-list li:nth-child(-n+3) {
+  margin-top: 0;
+}
+
+.work-list li:nth-child(3n+1) {
+  margin-left: 0;
+}
+
+.work-list li a {
+  opacity: .7;
+  transition: .3s;
+}
+
+.work-list li a:hover {
+  opacity: 1;
+}
+
+.work-desc {
+  text-align: center;
+  font-size: 0;
+  margin-top: 90px;
+}
+
+.work-text {
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  width: 350px;
+}
+
+.work-btn {
+  background-color: #74cfae;
+  color: #fff;
+  font-size: 12px;
+  padding: 14px 20px;
+  margin-left: 90px;
+  transition: .3s;
+}
+
+.work-btn:hover {
+  color: #333;
+}
+
+/* our skills */
+.skills {
+  background-color: #4e4e4e;
+  color: #fff;
+}
+
+.skills-inner {
+  padding: 70px 0 100px;
+}
+
+.skills-title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.skills-list li {
+  margin-top: 40px;
+  margin-left: 180px;
+  display: inline-block;
+}
+
+.skills-list li:first-child {
+  margin-left: 0;
+}
+
+.skills-list h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* sns */
+.sns {
+  background-color: #f2f2f2;
+}
+
+.sns-inner {
+  padding: 200px 0;
+}
+
+.sns-list {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.sns-btn {
+  width: 185px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .3s;
+}
+
+.sns-btn:hover {
+  background-color: #fff;
+}
+
+.sns-icon {
+  color: #74cfae;
+}
+
+/* footer */
+.footer {
+  background-color: #74cfae;
+}
+
+.footer-inner {
+  padding: 20px 0 25px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-title {
+  color: #fff;
+}
