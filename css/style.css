@@ -20,7 +20,7 @@ a {
   top: 0;
   left: 0;
   background-color: #fff;
-  z-index: 1;
+  z-index: 100;
 }
 
 .header-inner {
@@ -189,19 +189,23 @@ a {
 .skills-title {
   font-size: 24px;
   text-align: center;
-  padding-bottom: 40px;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
 }
 
 .skills-list li {
   margin-left: 180px;
-  display: inline-block;
 }
 
 .skills-list li:first-child {
   margin-left: 0;
 }
 
-.skills-list h1 {
+.skills-list p {
   margin-top: 20px;
   text-align: center;
   font-size: 16px;
@@ -252,3 +256,85 @@ a {
 .footer-title {
   color: #fff;
 }
+
+/* tab */
+@media (max-width: 1199px) {
+  .inner {
+    width: 97%;
+  }
+
+  /* what */
+  .what-inner {
+    display: block;
+    padding-bottom: 25px;
+  }
+
+  .what-desc {
+    margin-top: 20px;
+  }
+
+  .what-desc-text {
+    margin-top: 35px;
+  }
+
+  .what-text {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  /* work */
+  .work-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-list li {
+    margin: 0;
+  }
+
+  .work-list li:nth-child(3n+1) {
+    margin-top: 80px;
+  }
+
+  .work-list li:first-child {
+    margin-top: 0;
+  }
+
+  .work-desc {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+
+  .work-text {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .work-btn {
+    margin: 40px auto 0;
+  }
+
+  /* skills */
+  .skills-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills-list li {
+    margin: 88px 0 0;
+  }
+
+  .skills-list li:first-child {
+    margin: 0;
+  }
+
+
+}
+
+/* sp */
+@media (max-width: 768px) {
+
+}
+
